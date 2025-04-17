@@ -1,0 +1,43 @@
+.movieSection {
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "left left right right right"
+    "left left right right right"
+    "bottom bottom bottom bottom bottom"
+    "footer footer footer footer footer";
+}
+
+.boxImg {
+  width: 370px;
+  height: 575px;
+  grid-area: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.boxDescription {
+  padding-top: 30px;
+  grid-area: right;
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.boxInfo {
+  grid-area: bottom;
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.list {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 40px;
+}

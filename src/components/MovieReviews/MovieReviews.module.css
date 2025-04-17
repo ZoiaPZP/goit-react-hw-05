@@ -1,0 +1,14 @@
+.boxCast {
+  grid-area: footer;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxCastList {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 50px;
+  row-gap: 50px;
+}

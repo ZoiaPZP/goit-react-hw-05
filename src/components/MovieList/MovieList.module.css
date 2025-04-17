@@ -1,0 +1,10 @@
+.boxHome {
+  display: flex;
+  padding: 20px;
+}
+
+.boxHomeList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
