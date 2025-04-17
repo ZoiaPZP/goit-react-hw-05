@@ -29,7 +29,12 @@ const HomePage = () => {
   return (
     <div className={styles.wrapper}>
       {isLoading && <Loader />}
-      <MoviesList movies={resultTrend} location={location} />
+      {!isLoading && (
+        <>
+          <h1 className={styles.title}>Hot New Releases of the Day</h1>
+          <MoviesList movies={resultTrend} location={location} />
+        </>
+      )}
     </div>
   );
 };

@@ -3,3 +3,11 @@
   flex-direction: column;
   row-gap: 15px;
 }
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #f6880af4;
+  text-align: left;
+  margin-left: 40px;
+}

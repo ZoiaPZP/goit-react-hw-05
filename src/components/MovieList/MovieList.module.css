@@ -8,3 +8,27 @@
   flex-direction: column;
   row-gap: 15px;
 }
+.icon {
+  margin-right: 8px;
+  color: #ff6b08;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: #e48500;
+}
+
+.item {
+  margin-bottom: 12px;
+}
