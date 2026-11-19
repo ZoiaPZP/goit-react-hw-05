@@ -70,3 +70,14 @@ button:hover {
   color: inherit;
   text-decoration: underline;
 }
+
+.site-footer-logo {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.site-footer-logo img {
+  display: block;
+  width: 137px;
+  height: auto;
+}
