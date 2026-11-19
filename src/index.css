@@ -53,3 +53,31 @@ button {
 button:hover {
   background-color: rgb(52, 56, 139);
 }
+
+/* TMDB attribution (required by the TMDB API terms). */
+.site-footer {
+  padding: 24px 16px;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.site-footer p {
+  margin: 4px 0;
+}
+
+.site-footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.site-footer-logo {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.site-footer-logo img {
+  display: block;
+  width: 137px;
+  height: auto;
+}
