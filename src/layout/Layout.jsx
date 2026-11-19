@@ -11,6 +11,15 @@ const Layout = () => {
       <Suspense fallback={<div className="loading">Loading...</div>}>
         <Outlet />
       </Suspense>
+      <footer className="site-footer">
+        <p>
+          Educational project · Movie data and images from{'\u00a0'}
+          <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">
+            TMDB
+          </a>
+        </p>
+        <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+      </footer>
     </div>
   );
 };
